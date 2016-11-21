@@ -1,3 +1,3 @@
 #compile reduce on Stampede:
-  nvcc -arch=compute_35 -code=sm_35 -o reduce.out reduce.cu
+  nvcc -arch=compute_35 -code=sm_35 -o reduce.out reduce.cu \n
   "inp.txt" is test input file.
